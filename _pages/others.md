@@ -9,24 +9,24 @@ In my spare time, I like painting and photography. I'll show some of my artwork 
 #### Paintings
 Both original and reproduction works are listed here.
 
-<img src="../assets/paintings/Akagi.jpg" width = "300"/>
-<img src="../assets/paintings/Hanamichi.jpg" width = "300"/>
-<img src="../assets/paintings/Fallout-girl.jpg" width = "300"/>
+<img src="../assets/resized_paintings/Akagi.jpg" width = "300"/>
+<img src="../assets/resized_paintings/Hanamichi.jpg" width = "300"/>
+<img src="../assets/resized_paintings/Fallout-girl.jpg" width = "300"/>
 <br>
-<img src="../assets/paintings/Nami.jpg" width = "200"/>
+<img src="../assets/resized_paintings/Nami.jpg" width = "200"/>
 
 #### Photography
 Photos shot on iPhone or SONY Alpha 6400.
 
-<img src="../assets/photography/2019.jpg" height = "200"/>
-<img src="../assets/photography/ceiling2.jpg" height = "200"/>
-<img src="../assets/photography/ceiling1.jpg" height = "200"/>
-<img src="../assets/photography/cup.jpg" height = "200"/>
-<img src="../assets/photography/kite.jpg" height = "200"/>
-<img src="../assets/photography/dogs.jpg" height = "200"/>
+<img src="../assets/resized_photography/2019.jpg" height = "200"/>
+<img src="../assets/resized_photography/ceiling2.jpg" height = "200"/>
+<img src="../assets/resized_photography/ceiling1.jpg" height = "200"/>
+<img src="../assets/resized_photography/cup.jpg" height = "200"/>
+<img src="../assets/resized_photography/kite.jpg" height = "200"/>
+<img src="../assets/resized_photography/dogs.jpg" height = "200"/>
 <br>
-<img src="../assets/photography/snow.jpg" width = "300"/>
-<img src="../assets/photography/light.jpg" width = "300"/>
+<img src="../assets/resized_photography/snow.jpg" width = "300"/>
+<img src="../assets/resized_photography/light.jpg" width = "300"/>
 
 <!-- #### Talks
 
