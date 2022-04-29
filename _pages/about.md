@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: avatar.jpeg
+  image: photo.jpeg
   address: 
 
 news: true  # includes a list of news items
