@@ -15,10 +15,10 @@ social: true  # includes social icons at the bottom of the page
 # awards: true
 ---
 
-Master Student, Shandong University<br>
+Research Assistant(RA), the Chinese University of Hong Kong<br>
 yinqiaowong [at] gmail.com<br>
 [Google scholar](https://scholar.google.com/citations?user=VXErxoYAAAAJ) | [Github](https://github.com/joyboyish)
 
-I'm currently a master student in the School of Information Science and Engineering (ISE) at **Shandong University**. Since 2019, I've been working in [IDEAS Lab](https://ideaslab.wang/). 
+I'm currently a RA in the Department of Computer Science and Engineering (CSE) at **the Chinese University of Hong Kong**. Before that, I worked in [IDEAS Lab](https://ideaslab.wang/) at Shandong University. 
 
 My research interests include visualization, computer graphics, and computer vision.
