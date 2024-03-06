@@ -19,3 +19,5 @@ group :jekyll_plugins do
     gem 'htmlbeautifier'
     gem 'jekyll-responsive-image'
 end
+
+gem 'github-pages', group: :jekyll_plugins
