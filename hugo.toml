@@ -4,7 +4,6 @@ title = 'Yinqiao Wang'
 
 [params]
   description = "Yinqiao Wang's homepage"
-  themeColor = "theme-base-08"
 
 [[menu.main]]
   name = "About"

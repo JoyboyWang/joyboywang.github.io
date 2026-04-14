@@ -1,18 +1,43 @@
 {{ define "main" -}}
-<div class="posts">
-{{ range .Site.RegularPages -}}
-<article class="post">
-  <h1 class="post-title">
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-  </h1>
-  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-  {{ .Summary }}
-  {{ if .Truncated }}
-  <div class="read-more-link">
-    <a href="{{ .RelPermalink }}">Read More…</a>
-  </div>
-  {{ end }}
-</article>
-{{- end }}
+<div class="home-page">
+  
+  <!-- About Me Block -->
+  <section class="block about-me" style="margin-bottom: 3rem;">
+    {{ .Content }}
+  </section>
+
+  <!-- News Block -->
+  <section class="block news" style="margin-bottom: 3rem;">
+    <h2>News</h2>
+    <ul style="list-style-type: disc; padding-left: 1.5rem;">
+      {{ $news := where .Site.RegularPages "Section" "news" }}
+      {{ range first 5 $news }}
+      <li style="margin-bottom: 0.5rem;">
+        <strong>{{ .Date.Format "Jan 2006" }}</strong> - <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ else }}
+      <li>No news available yet.</li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <!-- Publications Block -->
+  <section class="block publications" style="margin-bottom: 3rem;">
+    <h2>Publications</h2>
+    <ul style="list-style-type: disc; padding-left: 1.5rem;">
+      {{ $pubs := where .Site.RegularPages "Section" "publications" }}
+      {{ range $pubs }}
+      <li style="margin-bottom: 1rem;">
+        <strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong><br>
+        {{ with .Params.authors }}<span>{{ . }}</span><br>{{ end }}
+        {{ with .Params.venue }}<em>{{ . }}</em>, {{ end }}{{ .Date.Format "2006" }}
+        {{ with .Params.pdf }} <a href="{{ . }}">[PDF]</a>{{ end }}
+      </li>
+      {{ else }}
+      <li>No publications available yet.</li>
+      {{ end }}
+    </ul>
+  </section>
+
 </div>
 {{- end }}
