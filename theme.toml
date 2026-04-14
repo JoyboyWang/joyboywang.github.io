@@ -16,6 +16,8 @@ min_version = 0.53
     homepage = "http://markdotto.com/"
     repo = "https://www.github.com/mdo/hyde"
 
+
+theme = "hyde"
 [Menus]
   main = [
       {Name = "Github", URL = "https://github.com/JoyboyWang"},
