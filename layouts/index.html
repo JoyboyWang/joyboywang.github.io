@@ -37,7 +37,7 @@
       <li style="margin-bottom: 1rem;">
         <strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong><br>
         {{ with .Params.authors }}<span>{{ . | safeHTML }}</span><br>{{ end }}
-        {{ with .Params.venue }}<em>{{ . }}</em>, {{ end }}{{ .Date.Format "2006" }}
+        {{ with .Params.venue }}<em>{{ . | safeHTML }}</em>, {{ end }}{{ .Date.Format "2006" }}
         {{ with .Params.pdf }} <a href="{{ . }}">[PDF]</a>{{ end }}
       </li>
       {{ else }}
