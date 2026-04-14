@@ -46,5 +46,12 @@
     </ul>
   </section>
 
+  <!-- Academic Service Block -->
+  {{ with .Site.GetPage "page" "academic-service" }}
+  <section class="block academic-service" style="margin-bottom: 3rem;">
+    {{ .Content }}
+  </section>
+  {{ end }}
+
 </div>
 {{- end }}
