@@ -1,0 +1,17 @@
+baseURL = 'https://joyboywang.github.io/'
+languageCode = 'en-us'
+title = 'Yinqiao Wang'
+
+[params]
+  description = "Yinqiao Wang's homepage"
+  themeColor = "theme-base-08"
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/JoyboyWang"
+  weight = 2
