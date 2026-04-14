@@ -4,6 +4,7 @@ title = 'Yinqiao Wang'
 
 [params]
   description = "Yinqiao Wang's homepage"
+  avatar = "/avatar.svg" # Place your profile picture at static/avatar.png/jpg and update this link
 
 [[menu.main]]
   name = "Google Scholar"

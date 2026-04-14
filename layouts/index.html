@@ -2,8 +2,15 @@
 <div class="home-page">
   
   <!-- About Me Block -->
-  <section class="block about-me" style="margin-bottom: 3rem;">
-    {{ .Content }}
+  <section class="block about-me" style="margin-bottom: 3rem; display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+    <!-- Profile Picture -->
+    <div class="profile-picture" style="flex: 0 0 200px;">
+      <img src="{{ with .Site.Params.avatar }}{{ . | relURL }}{{ else }}/avatar.png{{ end }}" alt="{{ .Site.Title }}" style="width: 100%; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+    <!-- Bio Text -->
+    <div class="bio-text" style="flex: 1 1 300px;">
+      {{ .Content }}
+    </div>
   </section>
 
   <!-- News Block -->
