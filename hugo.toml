@@ -3,15 +3,19 @@ languageCode = 'en-us'
 title = 'Yinqiao Wang'
 
 [params]
-  description = "Yinqiao Wang's homepage"
   avatar = "/profile.jpg" # Place your profile picture at static/avatar.png/jpg and update this link
+
+[[menu.main]]
+  name = "Email"
+  url = "mailto:yqwang@cse.cuhk.edu.hk"
+  weight = 1
 
 [[menu.main]]
   name = "Google Scholar"
   url = "https://scholar.google.com/citations?user=VXErxoYAAAAJ&hl=en"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "GitHub"
   url = "https://github.com/JoyboyWang"
-  weight = 2
+  weight = 3
