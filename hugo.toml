@@ -6,8 +6,8 @@ title = 'Yinqiao Wang'
   description = "Yinqiao Wang's homepage"
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
+  name = "Google Scholar"
+  url = "https://scholar.google.com/citations?user=VXErxoYAAAAJ&hl=en"
   weight = 1
 
 [[menu.main]]

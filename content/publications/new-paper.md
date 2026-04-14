@@ -6,3 +6,5 @@ venue: "Name of the Conference or Journal"
 pdf: "https://link-to-your-pdf.com/paper.pdf"
 draft: false
 ---
+
+This is the new paper.
